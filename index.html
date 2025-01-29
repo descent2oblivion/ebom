@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-BOM | E-NLM</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <!--link rel="stylesheet" href="styles.css"-->
+</head>
+<body>
+    <div class="container">
+        <!-- Title -->
+        <h1 class="text-center my-4">E-BOM | E-NLM</h1>
+        <h2 class="text-center">Emma's Best Odds Method | Emma's Non-Linear Method</h2>
+
+        <!-- Paragraph -->
+        <p class="text-center">This method consists of blockbuilding the F2L alg-free, and using algs to solve the last layer in a variety of ways depending on the scenario, 
+            there are a total of 86 cases which can be solved in 86 or less algs since many cases are mirrors/inversions. <br/>
+            Can also be viewed as a programming switch of substeps to get the most of your learned algs</p>
+
+        
+        <div class="row">
+            <div class="column col-md-3 mx-auto text-center p-3 bg-light rounded shadow">
+                <h2>F2B</h2>
+                <!-- Image -->
+                <img src="imgs/f2b.jpg" alt="Description of Image 1" class="img-fluid d-block mx-auto mb-4 text-center">
+
+                <!-- Paragraph -->
+                <p class="text-center">1. Solve two opposite 1x2x3 blocks (as in Roux, any order)</p>
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="row">
+            <div class="column col-md-3 mx-auto text-center p-3 bg-light rounded shadow">
+                <h2>F2L</h2>
+                <!-- Image -->
+                <img src="imgs/f2l.jpg" alt="Description of Image 2" class="img-fluid d-block mx-auto mb-4  text-center">
+    
+                <!-- Paragraph -->
+                <p class="text-center">2. Solve last 2 edges of F2L (the floor). <a href="#variation">[Additional notes]</a></p>
+            </div>
+        </div>
+        
+        <br/>
+        
+        <!-- Three Columns Section -->
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-md-3">
+                <div class="column text-center p-3 bg-light rounded shadow">
+                    <h2>COLL + ELL (71 algs)</h2>
+                    <img src="imgs/cpll.jpg" alt="Description of Image 3" class="img-fluid mb-3">
+                    <p>3.1 If the U-cross nor the edges are oriented do <a href="https://www.speedsolving.com/wiki/index.php/Special:MediawikiAlgDB?mode=view&view=default&puzzle=3&group=COLL">COLL</a>(42 algs)</p>
+                    <img src="imgs/ell.jpg" alt="Description of Image 4" class="img-fluid mb-3">
+                    <p>4.1 <a href="https://www.speedsolving.com/wiki/index.php?title=ELL">ELL</a> (29 algs)</p>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-md-3">
+                <div class="column text-center p-3 bg-light rounded shadow">
+                    <h2>COLL + EPLL (no new algs)</h2>
+                    <img src="imgs/topCross.jpg" alt="Description of Image 5" class="img-fluid mb-3">
+                    <p>3.2 If the edges are oriented do COLL, as in 3.1 (42 algs, PLL skip 1/12 chance)</p>
+                    <img src="imgs/epll.jpg" alt="Description of Image 6" class="img-fluid mb-3">
+                    <p>4.2 EPLL (4 algs of ELL)</p>
+                </div>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-md-3">
+                <div class="column text-center p-3 bg-light rounded shadow">
+                    <h2>OLL + PLL (15 algs)</h2>
+                    <img src="imgs/oll.jpg" alt="Description of Image 7" class="img-fluid mb-3">
+                    <p>3.3 If the corners are oriented but not permuted do OLL (3 algs of ELL namely X, H or big fish).</p>
+                    <img src="imgs/pll.jpg" alt="Description of Image 8" class="img-fluid mb-3">
+                    <p>4.3 <a href="https://www.speedsolving.com/wiki/index.php?title=PLL">PLL</a> (21 algs - 4 ELL - 2 COLL = 15)</p>
+                </div>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-md-3">
+                <div class="column text-center p-3 bg-light rounded shadow">
+                    <h2>ELL (no new algs)</h2>
+                    <img src="imgs/ell.jpg" alt="Description of Image 7" class="img-fluid mb-3">
+                    <p>3.4 If the corners are solved (oriented & permuted) do ELL, same as 3.1 (29 algs)</p>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+
+        <h2 id="variation" class="text-center">Variation</h2>
+
+        <div class="row">
+            <!-- Column 5 -->
+            <div class="column col-md-3 mx-auto text-center p-3 bg-light rounded shadow">
+                <h2>Column 5</h2>
+                <img src="imgs/l5eop.jpg" alt="Description of Image 7" class="img-fluid mb-3">
+                <p>Step 2 may be improved using <a href="https://www.speedsolving.com/wiki/index.php?title=L5EOP">L5EOP</a> (20 algs - 3 ELL) when solving the last floor edge (FD edge), this sets up for 3.2 always. Recommended variation for learning <a href="https://www.speedsolving.com/wiki/index.php?title=ZBLL">ZBLL</a> (493 algs - 42 COLL - 15 PLL = 436)in the future.</p>
+            </div>
+        </div>
+    </div>
+    <h5 >First edit: Jan 28 2025</h5>
+    <h5 >Last edit: Jan 28 2025</h5>
+    <!-- Bootstrap JS and Popper.js CDN (optional, for Bootstrap components) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
